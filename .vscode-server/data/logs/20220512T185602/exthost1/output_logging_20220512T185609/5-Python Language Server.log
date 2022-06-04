@@ -1,0 +1,303 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "11"
+ERROR:pygls.protocol:Failed to handle request 25 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/publications/api/api.py') range=78:18-79:17 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+[Error - 7:02:07 PM] Request textDocument/codeAction failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "36"
+WARNING:pygls.protocol:Cancel notification for unknown message id "38"
+WARNING:pygls.protocol:Cancel notification for unknown message id "39"
+WARNING:pygls.protocol:Cancel notification for unknown message id "41"
+WARNING:pygls.protocol:Cancel notification for unknown message id "40"
+WARNING:pygls.protocol:Cancel notification for unknown message id "42"
+WARNING:pygls.protocol:Cancel notification for unknown message id "43"
+WARNING:pygls.protocol:Cancel notification for unknown message id "44"
+WARNING:pygls.protocol:Cancel notification for unknown message id "45"
+WARNING:pygls.protocol:Cancel notification for unknown message id "48"
+WARNING:pygls.protocol:Cancel notification for unknown message id "46"
+WARNING:pygls.protocol:Cancel notification for unknown message id "47"
+WARNING:pygls.protocol:Cancel notification for unknown message id "49"
+WARNING:pygls.protocol:Cancel notification for unknown message id "50"
+WARNING:pygls.protocol:Cancel notification for unknown message id "51"
+WARNING:pygls.protocol:Cancel notification for unknown message id "52"
+WARNING:pygls.protocol:Cancel notification for unknown message id "55"
+WARNING:pygls.protocol:Cancel notification for unknown message id "53"
+WARNING:pygls.protocol:Cancel notification for unknown message id "54"
+WARNING:pygls.protocol:Cancel notification for unknown message id "58"
+WARNING:pygls.protocol:Cancel notification for unknown message id "57"
+WARNING:pygls.protocol:Cancel notification for unknown message id "61"
+WARNING:pygls.protocol:Cancel notification for unknown message id "60"
+WARNING:pygls.protocol:Cancel notification for unknown message id "63"
+WARNING:pygls.protocol:Cancel notification for unknown message id "56"
+WARNING:pygls.protocol:Cancel notification for unknown message id "64"
+WARNING:pygls.protocol:Cancel notification for unknown message id "66"
+WARNING:pygls.protocol:Cancel notification for unknown message id "68"
+WARNING:pygls.protocol:Cancel notification for unknown message id "69"
+WARNING:pygls.protocol:Cancel notification for unknown message id "70"
+WARNING:pygls.protocol:Cancel notification for unknown message id "82"
+WARNING:pygls.protocol:Cancel notification for unknown message id "84"
+WARNING:pygls.protocol:Cancel notification for unknown message id "85"
+WARNING:pygls.protocol:Cancel notification for unknown message id "101"
+WARNING:pygls.protocol:Cancel notification for unknown message id "108"
+WARNING:pygls.protocol:Cancel notification for unknown message id "110"
+WARNING:pygls.protocol:Cancel notification for unknown message id "143"
+WARNING:pygls.protocol:Cancel notification for unknown message id "178"
+WARNING:pygls.protocol:Cancel notification for unknown message id "276"
+WARNING:pygls.protocol:Cancel notification for unknown message id "407"
+ERROR:pygls.protocol:Failed to handle request 432 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/publications/api/api.py') range=22:21-22:21 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'DELETE'>, <Operator: ]>]), <Operator: )>]) is not in list
+[Error - 7:14:52 PM] Request textDocument/codeAction failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'DELETE'>, <Operator: ]>]), <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "452"
+WARNING:pygls.protocol:Cancel notification for unknown message id "451"
+WARNING:pygls.protocol:Cancel notification for unknown message id "465"
+ERROR:pygls.protocol:Failed to handle request 483 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/publications/api/api.py') position=5:19
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 351, in hover
+    hover_text = jedi_utils.hover_text(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 564, in hover_text
+    if _hover_ignore(name, initialization_options):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 544, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+[Error - 7:33:43 PM] Request textDocument/hover failed.
+  Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 351, in hover\n    hover_text = jedi_utils.hover_text(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 564, in hover_text\n    if _hover_ignore(name, initialization_options):\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 544, in _hover_ignore\n    ignore_type: HoverDisableOptions = getattr(\n']}
+ERROR:pygls.protocol:Failed to handle request 518 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/publications/api/api.py') position=36:0
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover
+    jedi_script.help(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 37 ('\n').
+[Error - 7:34:06 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 37 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 352, in hover\n    jedi_script.help(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "542"
+WARNING:pygls.protocol:Cancel notification for unknown message id "589"
+WARNING:pygls.protocol:Cancel notification for unknown message id "592"
+WARNING:pygls.protocol:Cancel notification for unknown message id "600"
+ERROR:pygls.protocol:Failed to handle request 601 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/requests/api/api.py') position=5:17
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 351, in hover
+    hover_text = jedi_utils.hover_text(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 564, in hover_text
+    if _hover_ignore(name, initialization_options):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 544, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+[Error - 7:35:27 PM] Request textDocument/hover failed.
+  Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 351, in hover\n    hover_text = jedi_utils.hover_text(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 564, in hover_text\n    if _hover_ignore(name, initialization_options):\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 544, in _hover_ignore\n    ignore_type: HoverDisableOptions = getattr(\n']}
+ERROR:pygls.protocol:Failed to handle request 611 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/requests/api/api.py') position=5:17
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 351, in hover
+    hover_text = jedi_utils.hover_text(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 564, in hover_text
+    if _hover_ignore(name, initialization_options):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 544, in _hover_ignore
+    ignore_type: HoverDisableOptions = getattr(
+AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+[Error - 7:35:36 PM] Request textDocument/hover failed.
+  Message: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 351, in hover\n    hover_text = jedi_utils.hover_text(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 564, in hover_text\n    if _hover_ignore(name, initialization_options):\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 544, in _hover_ignore\n    ignore_type: HoverDisableOptions = getattr(\n']}
+ERROR:pygls.protocol:Failed to handle request 653 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/requests/api/api.py') range=35:6-35:6 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 529, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 684, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (6) is not in a valid range (0-5) for line 36 ('#Soli\n').
+[Error - 7:36:30 PM] Request textDocument/codeAction failed.
+  Message: ValueError: `column` parameter (6) is not in a valid range (0-5) for line 36 ('#Soli\n').
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 529, in code_action\n    inline_refactoring = jedi_script.inline(*jedi_lines)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 684, in inline\n    names = [d._name for d in self.get_references(line, column, include_builtins=True)]\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "653"
+ERROR:pygls.protocol:Failed to handle request 706 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/requests/api/api.py') range=35:36-35:36 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 529, in code_action
+    inline_refactoring = jedi_script.inline(*jedi_lines)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 684, in inline
+    names = [d._name for d in self.get_references(line, column, include_builtins=True)]
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (36) is not in a valid range (0-35) for line 36 ('#Solicitudes realizadas por un usar\n').
+[Error - 7:39:08 PM] Request textDocument/codeAction failed.
+  Message: ValueError: `column` parameter (36) is not in a valid range (0-35) for line 36 ('#Solicitudes realizadas por un usar\n').
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 529, in code_action\n    inline_refactoring = jedi_script.inline(*jedi_lines)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 684, in inline\n    names = [d._name for d in self.get_references(line, column, include_builtins=True)]\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "706"
+ERROR:pygls.protocol:Failed to handle request 746 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/requests/api/api.py') range=36:18-37:12 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+[Error - 7:39:34 PM] Request textDocument/codeAction failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "763"
+WARNING:pygls.protocol:Cancel notification for unknown message id "771"
+WARNING:pygls.protocol:Cancel notification for unknown message id "799"
+WARNING:pygls.protocol:Cancel notification for unknown message id "802"
+WARNING:pygls.protocol:Cancel notification for unknown message id "805"
+WARNING:pygls.protocol:Cancel notification for unknown message id "817"
+WARNING:pygls.protocol:Cancel notification for unknown message id "828"
+WARNING:pygls.protocol:Cancel notification for unknown message id "840"
+WARNING:pygls.protocol:Cancel notification for unknown message id "849"
+WARNING:pygls.protocol:Cancel notification for unknown message id "850"
+WARNING:pygls.protocol:Cancel notification for unknown message id "889"
+WARNING:pygls.protocol:Cancel notification for unknown message id "893"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1057"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1062"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1063"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1082"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1143"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1144"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1145"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1148"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1146"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1149"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1151"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1159"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1160"
+ERROR:pygls.protocol:Failed to handle request 1175 textDocument/codeAction partial_result_token=None work_done_token=None text_document=TextDocumentIdentifier(uri='file:///home/ubuntu/reciclaProject/requests/api/api.py') range=51:18-51:18 context=CodeActionContext(diagnostics=[], only=None)
+Traceback (most recent call last):
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable
+    return extract_variable(
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes
+    next_leaf = start_node.get_next_leaf()
+  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf
+    i = c.index(node)
+ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+[Error - 7:58:43 PM] Request textDocument/codeAction failed.
+  Message: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+  Code: -32602 
+{'traceback': ['  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 551, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/__init__.py", line 615, in extract_variable\n    return extract_variable(\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/jedi/api/refactoring/extract.py", line 68, in _find_nodes\n    next_leaf = start_node.get_next_leaf()\n', '  File "/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/lib/jedilsp/parso/tree.py", line 121, in get_next_leaf\n    i = c.index(node)\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "1312"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1320"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1337"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1343"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1374"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1375"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1416"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1422"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1432"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1541"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1618"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1620"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1619"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1625"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1637"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1700"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1702"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1703"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1707"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1706"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1719"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1729"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1764"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1772"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1834"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1852"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1858"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1876"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1877"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1954"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1955"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1959"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2013"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2015"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2018"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2020"

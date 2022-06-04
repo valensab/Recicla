@@ -1,0 +1,11 @@
+Experiment 'pythonaacf' is active
+Experiment 'pythonTensorboardExperiment' is active
+Experiment 'pythonSurveyNotificationcf' is active
+Experiment 'PythonPyTorchProfiler' is active
+Experiment 'pythonDeprecatePythonPath' is active
+Experiment 'pythonInterpreterInfoUnpinned' is active
+> conda info --json
+> /bin/python3 ~/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.6.0/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3
+Starting Jedi language server for reciclaProject.

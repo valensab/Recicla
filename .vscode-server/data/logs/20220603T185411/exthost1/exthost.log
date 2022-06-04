@@ -1,0 +1,19 @@
+[2022-06-03 18:54:18.971] [exthost] [info] Extension host with pid 68591 started
+[2022-06-03 18:54:19.042] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/598fd959e205ceeddb9427d163e683a7/vscode.lock': Lock acquired.
+[2022-06-03 18:54:19.702] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-03 18:54:20.646] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-06-03 18:54:21.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-03 18:54:21.962] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-03 18:54:22.029] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-03 18:54:23.033] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-03 18:54:23.239] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-03 18:54:27.849] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-06-03 18:54:28.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 18:54:28.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-03 18:54:28.262] [exthost] [info] Eager extensions activated
+[2022-06-03 21:30:23.324] [exthost] [error] [ms-python.python] provider FAILED
+[2022-06-03 21:30:23.324] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 53 ('\n').
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.3/out/client/extension.js:2:2112921
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.3/out/client/extension.js:2:2113215
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.3/out/client/extension.js:2:2113577)
+	at processImmediate (node:internal/timers:464:21)

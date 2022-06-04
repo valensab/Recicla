@@ -1,0 +1,40 @@
+[2022-05-20 00:28:15.787] [exthost] [info] Extension host with pid 10691 started
+[2022-05-20 00:28:15.860] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/598fd959e205ceeddb9427d163e683a7/vscode.lock': Lock acquired.
+[2022-05-20 00:28:16.955] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-05-20 00:28:18.363] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-05-20 00:28:19.881] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-20 00:28:19.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-20 00:28:19.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-20 00:28:20.567] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-20 00:28:20.754] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-20 00:28:24.555] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-05-20 00:28:24.857] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-20 00:28:24.881] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-20 00:28:24.887] [exthost] [info] Eager extensions activated
+[2022-05-20 00:36:57.497] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-20 00:36:57.503] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2111884
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112178
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112540)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-20 00:37:28.784] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-20 00:37:28.785] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2111884
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112178
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112540)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-20 00:39:33.496] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-20 00:39:33.496] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2111884
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112178
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112540)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-20 00:39:45.235] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-20 00:39:45.235] [exthost] [error] Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2111884
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112178
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2/out/client/extension.js:2:2112540)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-20 07:34:51.683] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-05-20 07:34:51.683] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/598fd959e205ceeddb9427d163e683a7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-05-20 07:34:51.704] [exthost] [info] Extension host with pid 10691 exiting with code 0

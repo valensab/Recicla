@@ -1,0 +1,76 @@
+[2022-05-12 18:56:09.632] [exthost] [info] Extension host with pid 69988 started
+[2022-05-12 18:56:09.742] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/598fd959e205ceeddb9427d163e683a7/vscode.lock': Lock acquired.
+[2022-05-12 18:56:09.952] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-05-12 18:56:11.554] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-05-12 18:56:14.057] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-12 18:56:14.062] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-12 18:56:14.068] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-12 18:56:15.239] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-12 18:56:15.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-12 18:56:24.535] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-05-12 18:56:24.840] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-12 18:56:24.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-12 18:56:24.959] [exthost] [info] Eager extensions activated
+[2022-05-12 19:02:07.545] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:02:07.546] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:14:52.984] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:14:52.984] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'DELETE'>, <Operator: ]>]), <Operator: )>]) is not in list
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:33:43.206] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:33:43.206] [exthost] [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:34:06.839] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:34:06.839] [exthost] [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 37 ('\n').
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:35:27.448] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:35:27.448] [exthost] [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:35:36.243] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:35:36.243] [exthost] [error] Error: AttributeError: 'HoverDisable' object has no attribute 'namespace_'
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:36:30.322] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:36:30.322] [exthost] [error] Error: ValueError: `column` parameter (6) is not in a valid range (0-5) for line 36 ('#Soli\n').
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:39:08.482] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:39:08.482] [exthost] [error] Error: ValueError: `column` parameter (36) is not in a valid range (0-35) for line 36 ('#Solicitudes realizadas por un usar\n').
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:39:34.737] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:39:34.738] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-12 19:58:43.467] [exthost] [error] [ms-python.python] provider FAILED
+[2022-05-12 19:58:43.468] [exthost] [error] Error: ValueError: PythonNode(trailer, [<Operator: (>, PythonNode(atom, [<Operator: [>, <String: 'GET'>, <Operator: ]>]), <Operator: )>]) is not in list
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108116
+	at /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108410
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.0/out/client/extension.js:2:2108772)
+	at processImmediate (node:internal/timers:464:21)
+[2022-05-13 06:14:51.759] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2022-05-13 06:14:51.765] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/598fd959e205ceeddb9427d163e683a7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-05-13 06:14:51.798] [exthost] [info] Extension host with pid 69988 exiting with code 0

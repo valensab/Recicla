@@ -1,0 +1,41 @@
+[2022-06-02 21:35:18.732] [remoteagent] [info] Extension host agent started.
+[2022-06-02 21:35:21.163] [remoteagent] [info] Deleted from disk ms-python.vscode-pylance /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.5.2
+[2022-06-02 21:35:22.230] [remoteagent] [info] [127.0.0.1][128c9d09][ExtensionHostConnection] New connection established.
+[2022-06-02 21:35:22.231] [remoteagent] [info] [127.0.0.1][f679a29d][ManagementConnection] New connection established.
+[2022-06-02 21:35:22.237] [remoteagent] [info] [127.0.0.1][128c9d09][ExtensionHostConnection] <62891> Launched Extension Host Process.
+[2022-06-02 21:35:29.473] [remoteagent] [info] Getting Manifest... ms-python.python
+[2022-06-02 21:35:29.476] [remoteagent] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-06-02 21:35:29.476] [remoteagent] [info] Getting Manifest... ms-toolsai.jupyter-renderers
+[2022-06-02 21:35:29.642] [remoteagent] [info] Installing extension: ms-python.python
+[2022-06-02 21:35:29.644] [remoteagent] [info] Installing extension: ms-python.vscode-pylance
+[2022-06-02 21:35:30.338] [remoteagent] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2022-06-02 21:35:33.111] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.8
+[2022-06-02 21:35:33.114] [remoteagent] [info] Downloaded extension: ms-python.vscode-pylance /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.6.0
+[2022-06-02 21:35:34.352] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.75ae9784-3568-4467-af27-e9d84da69fdd: ms-toolsai.jupyter-renderers
+[2022-06-02 21:35:34.357] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.8
+[2022-06-02 21:35:34.359] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2022-06-02 21:35:34.364] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2022-06-02 21:35:35.632] [remoteagent] [info] [127.0.0.1][128c9d09][ExtensionHostConnection] <62891> Extension Host Process exited with code: 0, signal: null.
+[2022-06-02 21:35:35.632] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-06-02 21:35:35.636] [remoteagent] [info] [127.0.0.1][f679a29d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-06-02 21:35:36.051] [remoteagent] [info] Downloaded extension: ms-python.python /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2022.6.3
+[2022-06-02 21:35:51.850] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-06-02 21:35:51.851] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-06-02 21:35:52.731] [remoteagent] [info] [127.0.0.1][31354981][ManagementConnection] New connection established.
+[2022-06-02 21:35:53.151] [remoteagent] [info] [127.0.0.1][6bde082a][ExtensionHostConnection] New connection established.
+[2022-06-02 21:35:53.247] [remoteagent] [info] [127.0.0.1][6bde082a][ExtensionHostConnection] <63046> Launched Extension Host Process.
+[2022-06-02 21:35:56.344] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.9b91f257-2144-4833-acd5-72c7aca7665f: ms-python.python
+[2022-06-02 21:35:56.358] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.3
+[2022-06-02 21:35:56.370] [remoteagent] [info] Extracting completed. ms-python.python
+[2022-06-02 21:35:56.376] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2022-06-02 21:36:03.851] [remoteagent] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-06-02 21:36:04.438] [remoteagent] [info] Extensions is already requested to install ms-python.vscode-pylance
+[2022-06-02 21:36:04.553] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.3b32ebff-9457-4560-b94c-b5676160f4aa: ms-python.vscode-pylance
+[2022-06-02 21:36:04.741] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.6.0
+[2022-06-02 21:36:04.743] [remoteagent] [info] Extracting completed. ms-python.vscode-pylance
+[2022-06-02 21:36:04.930] [remoteagent] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-06-02 21:40:51.855] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-06-02 22:25:40.495] [remoteagent] [info] [127.0.0.1][31354981][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-06-02 22:25:40.520] [remoteagent] [info] [127.0.0.1][6bde082a][ExtensionHostConnection] <63046> Extension Host Process exited with code: 0, signal: null.
+[2022-06-02 22:25:40.520] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-06-02 22:30:40.520] [remoteagent] [info] Last EH closed, shutting down

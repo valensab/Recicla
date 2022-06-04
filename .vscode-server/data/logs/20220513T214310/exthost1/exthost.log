@@ -1,0 +1,16 @@
+[2022-05-13 21:43:24.484] [exthost] [info] Extension host with pid 79472 started
+[2022-05-13 21:43:24.543] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/598fd959e205ceeddb9427d163e683a7/vscode.lock': Lock acquired.
+[2022-05-13 21:43:25.272] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-05-13 21:43:26.847] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-05-13 21:43:29.134] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-13 21:43:29.144] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-13 21:43:29.157] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-13 21:43:30.363] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-13 21:43:30.575] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-13 21:43:38.640] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-05-13 21:43:39.061] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-13 21:43:39.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-13 21:43:39.329] [exthost] [info] Eager extensions activated
+[2022-05-13 22:44:29.119] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-05-13 22:44:29.120] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/598fd959e205ceeddb9427d163e683a7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-05-13 22:44:29.135] [exthost] [info] Extension host with pid 79472 exiting with code 0

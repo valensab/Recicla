@@ -1,0 +1,17 @@
+Visual Studio Code (1.67.2, ssh-remote, desktop)
+Jupyter Extension Version: 2022.4.1021342353.
+Python Extension Version: 2022.6.2.
+Workspace folder /home/ubuntu/reciclaProject
+info 21:36:7.267: ZMQ install verified.
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+info 21:36:11.555: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 21:36:12.937: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 22:25:40.501: Shutting down notebooks for d0cbcbac-6261-4a8b-b1d3-1541e49dbeeb
+info 22:25:40.501: Disposing HostJupyterExecution 08010c90-319e-4d83-b505-e931da56cc26
+info 22:25:40.501: Disposing super HostJupyterExecution 08010c90-319e-4d83-b505-e931da56cc26
+info 22:25:40.502: Disposing HostJupyterExecution 08010c90-319e-4d83-b505-e931da56cc26
+info 22:25:40.502: Finished disposing HostJupyterExecution  08010c90-319e-4d83-b505-e931da56cc26
+info 22:25:40.507: Cleaning up server cache 08010c90-319e-4d83-b505-e931da56cc26
+info 22:25:40.507: Finished disposing HostJupyterExecution  08010c90-319e-4d83-b505-e931da56cc26

@@ -1,0 +1,24 @@
+[2022-05-26 21:56:12.040] [remoteagent] [info] Extension host agent started.
+[2022-05-26 21:56:13.535] [remoteagent] [info] [127.0.0.1][8aef14ab][ManagementConnection] New connection established.
+[2022-05-26 21:56:13.680] [remoteagent] [info] [127.0.0.1][1580fce5][ExtensionHostConnection] New connection established.
+[2022-05-26 21:56:13.689] [remoteagent] [info] [127.0.0.1][1580fce5][ExtensionHostConnection] <32889> Launched Extension Host Process.
+[2022-05-26 21:56:20.707] [remoteagent] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-05-26 21:56:20.857] [remoteagent] [info] Installing extension: ms-python.vscode-pylance
+[2022-05-26 21:56:22.888] [remoteagent] [info] Downloaded extension: ms-python.vscode-pylance /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.5.3
+[2022-05-26 21:56:39.546] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.3d43c671-aa92-4b12-86fd-6df5279e9e1e: ms-python.vscode-pylance
+[2022-05-26 21:56:39.568] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.5.3
+[2022-05-26 21:56:39.573] [remoteagent] [info] Extracting completed. ms-python.vscode-pylance
+[2022-05-26 21:56:39.642] [remoteagent] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-05-26 22:02:28.828] [remoteagent] [info] [127.0.0.1][8aef14ab][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-26 22:02:28.846] [remoteagent] [info] [127.0.0.1][1580fce5][ExtensionHostConnection] <32889> Extension Host Process exited with code: 0, signal: null.
+[2022-05-26 22:02:28.847] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-26 22:02:36.863] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-05-26 22:02:36.864] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-05-26 22:02:38.169] [remoteagent] [info] [127.0.0.1][972db6cb][ManagementConnection] New connection established.
+[2022-05-26 22:02:38.595] [remoteagent] [info] [127.0.0.1][d4be425c][ExtensionHostConnection] New connection established.
+[2022-05-26 22:02:38.640] [remoteagent] [info] [127.0.0.1][d4be425c][ExtensionHostConnection] <33081> Launched Extension Host Process.
+[2022-05-26 22:07:36.867] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-05-27 01:31:08.174] [remoteagent] [info] [127.0.0.1][972db6cb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-27 01:31:08.214] [remoteagent] [info] [127.0.0.1][d4be425c][ExtensionHostConnection] <33081> Extension Host Process exited with code: 0, signal: null.
+[2022-05-27 01:31:08.214] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-27 01:36:08.215] [remoteagent] [info] Last EH closed, shutting down

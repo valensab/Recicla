@@ -1,0 +1,11 @@
+[2022-06-02 22:42:14.528] [remoteagent] [info] Extension host agent started.
+[2022-06-02 22:42:15.845] [remoteagent] [info] Deleted from disk ms-toolsai.jupyter-renderers /home/ubuntu/.vscode-server/extensions/ms-toolsai.jupyter-renderers-1.0.6
+[2022-06-02 22:42:17.635] [remoteagent] [info] Deleted from disk ms-python.vscode-pylance /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.5.3
+[2022-06-02 22:42:17.639] [remoteagent] [info] Deleted from disk ms-python.python /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.2
+[2022-06-02 22:42:18.601] [remoteagent] [info] [127.0.0.1][c18fa825][ManagementConnection] New connection established.
+[2022-06-02 22:42:18.793] [remoteagent] [info] [127.0.0.1][63a62edc][ExtensionHostConnection] New connection established.
+[2022-06-02 22:42:18.799] [remoteagent] [info] [127.0.0.1][63a62edc][ExtensionHostConnection] <63593> Launched Extension Host Process.
+[2022-06-03 04:32:50.915] [remoteagent] [info] [127.0.0.1][c18fa825][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-06-03 04:32:50.945] [remoteagent] [info] [127.0.0.1][63a62edc][ExtensionHostConnection] <63593> Extension Host Process exited with code: 0, signal: null.
+[2022-06-03 04:32:50.945] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-06-03 04:37:50.946] [remoteagent] [info] Last EH closed, shutting down

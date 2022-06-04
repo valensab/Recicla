@@ -1,0 +1,25 @@
+[2022-05-12 18:56:02.531] [remoteagent] [info] Extension host agent started.
+[2022-05-12 18:56:03.755] [remoteagent] [info] [127.0.0.1][ed748d53][ManagementConnection] New connection established.
+[2022-05-12 18:56:03.951] [remoteagent] [info] [127.0.0.1][6cdb40b2][ExtensionHostConnection] New connection established.
+[2022-05-12 18:56:03.956] [remoteagent] [info] [127.0.0.1][6cdb40b2][ExtensionHostConnection] <69988> Launched Extension Host Process.
+[2022-05-12 18:56:10.746] [remoteagent] [info] Getting Manifest... ms-python.python
+[2022-05-12 18:56:10.746] [remoteagent] [info] Getting Manifest... ms-python.vscode-pylance
+[2022-05-12 18:56:11.247] [remoteagent] [info] Installing extension: ms-python.vscode-pylance
+[2022-05-12 18:56:11.250] [remoteagent] [info] Installing extension: ms-python.python
+[2022-05-12 18:56:15.842] [remoteagent] [info] Downloaded extension: ms-python.vscode-pylance /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.5.1
+[2022-05-12 18:56:15.845] [remoteagent] [info] Downloaded extension: ms-python.python /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2022.6.1
+[2022-05-12 18:56:41.750] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.5fa5be7b-1b89-4511-a73a-536509c7935c: ms-python.python
+[2022-05-12 18:56:41.845] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2022.6.1
+[2022-05-12 18:56:41.858] [remoteagent] [info] Extracting completed. ms-python.python
+[2022-05-12 18:56:41.867] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2022-05-12 18:56:48.831] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.ebf03d82-0932-47ca-8be3-23439402b81d: ms-python.vscode-pylance
+[2022-05-12 18:56:48.853] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2022.5.1
+[2022-05-12 18:56:48.859] [remoteagent] [info] Extracting completed. ms-python.vscode-pylance
+[2022-05-12 18:56:48.867] [remoteagent] [info] Extension installed successfully: ms-python.vscode-pylance
+[2022-05-13 04:17:02.462] [remoteagent] [info] [127.0.0.1][ed748d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-05-13 04:17:02.468] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/out/vs/server/node/server.main.js:143:7914)
+    at process.emit (node:events:390:28)
+[2022-05-13 06:14:51.860] [remoteagent] [info] [127.0.0.1][6cdb40b2][ExtensionHostConnection] <69988> Extension Host Process exited with code: 0, signal: null.
+[2022-05-13 06:14:51.861] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-13 06:19:51.862] [remoteagent] [info] Last EH closed, shutting down
